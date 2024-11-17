@@ -1,6 +1,6 @@
 {
 	"name": "@nasontech/nuxt-cors",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Rule based CORS configuration",
 	"repository": {
 		"type": "git",
@@ -21,7 +21,9 @@
 		"dist"
 	],
 	"build": {
-	  "externals": ["h3"]
+		"externals": [
+			"h3"
+		]
 	},
 	"publishConfig": {
 		"access": "public"
